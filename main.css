@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: #abb3a9;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+.art {
+    background-color: white;
+    color: #abb3a9;
+}
+
+#artContainer {
+    border: 2px solid #abb3a9;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    color: #82d371;
+    padding:
+}

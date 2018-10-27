@@ -8,10 +8,11 @@ $.ajax('https://data.nashville.gov/resource/xakp-ess3.json')
 const dataBuilder= (artworks) => {
     let domString = '';
     artworks.forEach((artwork) => {
-        domString += `<div id="locationDiv" class="card-loc location p-3 m-3" style="width: 21.5rem;">
+        domString += `<div id="" class="card-loc location p-3 m-3 art" style="width: 21.5rem;">
                         <img class="card-img-top" src="${artwork.photo_link}" alt="Card image cap" width="325px" height="250px">
                         <div class="card-body">
                             <h5 class="card-title">${artwork.title}</h5>
+                            <h6 class="card-title">${artwork.type}</h6>
                     
                         </div>
                     </div>`
