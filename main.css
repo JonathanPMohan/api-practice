@@ -1,14 +1,14 @@
 body {
     background-color: black;
-    color: #abb3a9;
+    color: #82d371;
     margin: 2%;
     padding: 2%;
     text-align: center;
 }
 
 .art {
-    background-color: white;
-    color: #abb3a9;
+    background-color: black;
+    color: #82d371;
 }
 
 #artContainer {
@@ -16,5 +16,9 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px;
     color: #82d371;
-    padding:
+    padding: 5px;
+}
+
+.card-img-top {
+    border-radius: 10px;
 }
